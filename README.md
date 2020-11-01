@@ -13,12 +13,14 @@ Para ejecutar el server correr el comando:
 npm start
 ```
 Iniciará un servidor en el puerto 3000 y para acceder al frontend hay que ir a esta url: http://localhost:3000/
-(el mismo backend sirve los archivos del front)
+(el mismo servidor sirve los archivos del front)
 
 # Tests e2e
 Están desarrollados con **Cypress**. Están en la siguiente carpeta: **cypress/integration/tests**
 
 # Archivos
-El archivo **index.es6.js** contiene el código del backend. **index.js** es la versión traspilada a ES5.
+El código fuente se encuentra en la carpeta **src**.
 
-En la carpeta **front** se encuentra el código del frontend.
+**Backend:** el archivo **index.es6.js** contiene el código del backend. **index.js** es la versión traspilada a ES5.
+
+**Frontend:** En la carpeta **front** se encuentra el código del frontend.
