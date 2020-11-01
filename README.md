@@ -8,7 +8,7 @@ npm install
 # Ejecución del server
 Para ejecutar el server correr el comando:
 npm start
-Iniciará un servidor en el puerto 3000 y para acceder al frontend hay que ir a esta url:
+Iniciará un servidor en el puerto 3000 y para acceder al frontend hay que ir a esta url, el mismo backend sirve los archivos del front:
 http://localhost:3000/
 
 # Tests e2e
