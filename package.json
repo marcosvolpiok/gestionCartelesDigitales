@@ -1,0 +1,40 @@
+{
+  "name": "videosockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "transpile": "npx babel index.es6.js --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosvolpiok/videoSockets.git"
+  },
+  "author": "Marcos Volpi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosvolpiok/videoSockets/issues"
+  },
+  "homepage": "https://github.com/marcosvolpiok/videoSockets#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cypress": "^5.5.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.5"
+  },
+  "engines": {
+    "node": "12.16.2"
+  }
+}
