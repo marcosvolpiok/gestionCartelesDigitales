@@ -18,6 +18,11 @@ Iniciará un servidor en el puerto 3000 y para acceder al frontend hay que ir a 
 # Tests e2e
 Están desarrollados con **Cypress**. Están en la siguiente carpeta: **cypress/integration/tests**
 
+Correr pruebas con:
+```
+node_modules/.bin/cypress open
+```
+
 # Archivos
 El código fuente se encuentra en la carpeta **src**.
 
